@@ -7,8 +7,9 @@
  * @d: struct dog to print
  */
 void print_dog(struct dog *d)
+{
 	if (d == NULL)
-{		return;
+		return;
 
 	if (d->name == NULL)
 		d->name = "(nil)";
